@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e0e5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .neumorphic-form {
+    background: #e0e5ec;
+    box-shadow: 8px 8px 16px #bec5d0, -8px -8px 16px #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.5rem;
+    color: #4d79f6;
+    padding: 0 10px;
+  }
+  
+  legend i {
+    margin-right: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  label i {
+    margin-right: 5px;
+    color: #4d79f6;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: #e0e5ec;
+    box-shadow: inset 4px 4px 8px #bec5d0, inset -4px -4px 8px #ffffff;
+    outline: none;
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #4d79f6;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #bec5d0, -4px -4px 8px #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #3a5bbf;
+    box-shadow: 2px 2px 4px #bec5d0, -2px -2px 4px #ffffff;
+  }
+  
